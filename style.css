@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(45deg, rgb(122, 205, 253) 30%, rgb(95, 95, 199), rgb(197, 5, 155) 80%);
+    height: 100vh;
+    overflow: hidden;
+}
+
+.style1 {
+    position: absolute;
+    rotate: 45deg;
+    right: 80%;
+    height: 30vh;
+    width: 40vw;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    z-index: -1;
+}
+
+.style2 {
+    position: absolute;
+    rotate: 45deg;
+    top: 20%;
+    left: 80%;
+    height: 30vh;
+    width: 40vw;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    z-index: -1;
+}
+
+.style3 {
+    position: absolute;
+    rotate: 45deg;
+    top: 80%;
+    left: 15%;
+    height: 30vh;
+    width: 40vw;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    z-index: -1;
+}
+
+.container {
+    background-color: #fff;
+    width: 85vw;
+    max-width: 600px;
+    margin-inline: auto;
+    margin-top: 4rem;
+    padding: 2.5rem 1.5rem;
+    border-radius: 10px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.header-text {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.fa-user-circle {
+    position: absolute;
+    left: 0;
+    top: 62%;
+    margin-left: 5px;
+}
+
+.material-icons {
+    position: absolute;
+    left: 0;
+    top: 60%;
+    font-size: 18px;
+    margin-left: 5px;
+} 
+
+.input {
+    position: relative;
+    margin-bottom: 1rem;
+}
+input {
+    border: none;
+    border-bottom: 1px solid  rgba(217, 219, 219, 0.7);
+    width: 90%;
+    padding: 8px;
+    outline: none;
+    margin-left: 20px;
+}
+
+.forgotPassword {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    text-align: right;
+}
+
+.loginBtn {
+    text-align: center;
+    display: block;
+    width: 80%;
+    margin-inline: auto;
+    text-decoration: none;
+    background: linear-gradient(to right, rgb(122, 205, 253) 30%, rgb(95, 95, 199), rgb(197, 5, 155) 80%);
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    padding:0.45em 0;
+    border-radius: 15px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.socialText {
+    text-align: center;
+    font-size: 13px;
+}
+
+.socialIcon {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.fa-twitter {
+    color: #fff;
+    background-color: rgb(77, 74, 250);
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.fa-google {
+    color: #fff;
+    background-color: rgb(207, 21, 21);
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.fa-facebook {
+    color: #fff;
+    background-color: rgb(42, 10, 116);
+    padding: 5px;
+    border-radius: 50%;
+    width: 30px;
+    text-align: center;
+}	
+
+.signUp {
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+}
